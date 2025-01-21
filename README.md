@@ -37,7 +37,7 @@ GenAIProject/
 │
 ├── text-summarization/
 │    ├── textsummery.py               # Core application script
-│                             # Environment variables for API keys
+│                            
 ├── requirements.txt                  # List of dependencies
 ├── venv/                             # Virtual environment for the project
 ```

@@ -37,8 +37,7 @@ GenAIProject/
 │
 ├── text-summarization/
 │    ├── textsummery.py               # Core application script
-│
-├── .env                              # Environment variables for API keys
+│                             # Environment variables for API keys
 ├── requirements.txt                  # List of dependencies
 ├── venv/                             # Virtual environment for the project
 ```
@@ -86,7 +85,6 @@ pip install -r requirements.txt
 ### 5. First-Time Model Download
 If running the application for the first time, download the model :
 ```python
-from transformers import pipeline
 text_summery = pipeline("summarization", model="sshleifer/distilbart-cnn-12-6", torch_dtype=torch.bfloat16)
 ```
 Once downloaded, move the model files to the `models` directory and comment above codes sippets and uncomment folllowing code snippets.

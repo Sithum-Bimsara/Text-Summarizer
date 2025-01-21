@@ -38,7 +38,6 @@ GenAIProject/
 ├── text-summarization/
 │    ├── textsummery.py               # Core application script
 │                            
-├── requirements.txt                  # List of dependencies
 ├── venv/                             # Virtual environment for the project
 ```
 
